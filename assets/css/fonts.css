@@ -1,0 +1,27 @@
+@font-face{
+    font-family:HelveticaRoman;
+    src:url(../fonts/HelveticaNeueLTGEO55Roman.eot);
+    src:url(../fonts/HelveticaNeueLTGEO55Roman.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/HelveticaNeueLTGEO55Roman.woff2) format("woff2"),
+    url(../fonts/HelveticaNeueLTGEO55Roman.woff) format("woff"),
+    url(../fonts/HelveticaNeueLTGEO55Roman.ttf) format("truetype"),
+    url(../fonts/HelveticaNeueLTGEO55Roman.svg#HelveticaNeueLTGEO55Roman) format("svg")
+}
+@font-face{
+    font-family:HelveticaMedium;
+    src:url(../fonts/HelveticaNeueLTGEO65Medium.eot);
+    src:url(../fonts/HelveticaNeueLTGEO65Medium.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/HelveticaNeueLTGEO65Medium.woff2) format("woff2"),
+    url(../fonts/HelveticaNeueLTGEO65Medium.woff) format("woff"),
+    url(../fonts/HelveticaNeueLTGEO65Medium.ttf) format("truetype"),
+    url(../fonts/HelveticaNeueLTGEO65Medium.svg#HelveticaNeueLTGEO65Medium) format("svg")
+}
+@font-face{
+    font-family:HelveticaBold;
+    src:url(../fonts/HelveticaNeueLTGEO75Bold.eot);
+    src:url(../fonts/HelveticaNeueLTGEO75Bold.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/HelveticaNeueLTGEO75Bold.woff2) format("woff2"),
+    url(../fonts/HelveticaNeueLTGEO75Bold.woff) format("woff"),
+    url(../fonts/HelveticaNeueLTGEO75Bold.ttf) format("truetype"),
+    url(../fonts/HelveticaNeueLTGEO75Bold.svg#HelveticaNeueLTGEO75Bold) format("svg")
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka-GE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="მასწავლებლის ელექტრონული ჟურნალი">
+    <meta name="author" content="მიხეილ გიგაური">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>მასწავლებლის გვერდი</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header fl_jus-bet">
+        <!-- SITE LOGO -->
+        <h1><a class="header__logo" href="index.html"></a></h1>
+        <!-- USER PANEL -->
+        <div class="header__login fl_center">
+            <div class="login__avatar"></div>
+            <div class="fl_column">
+                <h3 class="login__username">სახელი გვარი</h3>
+                <span class="login__position">ლექტორი</span>
+            </div>
+            <div class="login__dropdown"></div>
+        </div>
+    </header>
+    <!-- CONTENT SECTION -->
+    <main class="main">
+        <div class="buttons fl_jus-bet">
+            <div class="buttons__left">
+                <button class="buttons__delete" onclick="base.func.deleteAll()">ყველაფრის წაშლა</button>
+            </div>
+            <div class="buttons__right fl_jus-bet">
+                <div class="buttons__amount">ქულების საშუალო: <span id="marksAvarage"0</span></div>
+                <div class="buttons__amount">სტუდენტების რაოდენობა: <span id="studentsLenght"></span></div>
+            </div>
+        </div>
+        <section class="main__container">
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+                <div class="sidebar__add fl_center" onclick="base.func.studentAdd();">სტუდენტის დამატება<i class="fas fa-plus"></i></div>
+                <nav class="sidebar__nav">
+                    <ul class="nav__list" id="studentList"></ul>
+                </nav>
+            </aside>
+            <!-- MAIN SECTION -->
+            <section class="main__section">
+                <table class="table">
+                    <thead class="table__date fl_center">
+                        <tr class="table__head fl_jus-bet">
+                            <th>ორშაბათი</th>
+                            <th>სამშაბათი</th>
+                            <th>ოთხშაბათი</th>
+                            <th>ხუთშაბათი</th>
+                            <th>პარასკევი</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table__marks" id="rowList"></tbody>
+                </table>
+            </section>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer"></footer>
+
+    <div class="login__section" id="loginForm">
+        <form class="form">
+            <h2 class="form__heading">მოგესალმებით</h2>
+            <input  type="text" id="username" value="" placeholder="მომხმარებლის სახელი" required>
+            <input type="password" id="password" placeholder="მომხმარებლის პაროლი" required>
+            <div id="loginBtn" class="form__button">ავტორიზაცია</div>
+        </form>
+    </div>
+
+<script src="./assets/js/app.js"></script>
+</body>
+</html>

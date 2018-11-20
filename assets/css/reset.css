@@ -1,0 +1,70 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* Flexbox */
+.fl_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fl_column{
+    display: flex;
+    flex-direction: column;
+}
+.fl_start{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.fl_jus-bet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ICONS */
+.fa-plus, .fa-trash-alt{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.fa-plus{
+    color: #FFF;
+}
+.fa-trash-alt{
+    color: #FD544B;
+}
